@@ -22,7 +22,7 @@
         window.open(this.downUrl)
       },
       getUrl() {
-        axios.get('http://127.0.0.1:7002/api/v2/spider/lolskin').then((res)=>{
+        axios.get('https://kaier001.com/api/v2/spider/lolskin').then((res)=>{
           this.downUrl = res.data.data || ''
         })
       }

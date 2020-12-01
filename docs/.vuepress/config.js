@@ -126,18 +126,25 @@ module.exports = {
         audios: [
           // 本地文件示例
           // {
-          //   name: '장가갈 수 있을까',
-          //   artist: '咖啡少年',
-          //   url: '/bgm/1.mp3',
-          //   cover: '/bgm/1.jpg'
+          //   name: '结伴前行',
+          //   artist: '黄超',
+          //   url: '/bgm/结伴前行.mp3',
+          //   cover: '/bgm/结伴前行.jpg'
           // },
           // 网络文件示例
+          {
+            name: '结伴前行',
+            artist: '黄超',
+            url: 'https://resource.kaier001.com/jiebanqianxing.mp3',
+            cover: 'https://resource.kaier001.com/jiebanqianxing.jpg'
+          },
           {
             name: 'Loving Strangers',
             artist: 'Jocelyn Pook,Russian Red',
             url: 'https://musicres.kaier001.com/Jocelyn Pook,Russian Red - Loving Strangers.mp3',
             cover: 'https://resource.kaier001.com/Loving%20Strangers.jpg'
-          }
+          },
+
         ] 
         /* options */
       }
